@@ -83,7 +83,15 @@ button {
 p {
   font-size: 1.5rem;
 }
-select{
+select {
   font-size: 2rem;
   padding-left: 1rem;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .username {
+    width: 75%;
+  }
 }
