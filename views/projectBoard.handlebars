@@ -27,7 +27,7 @@
 
   <!-- project board with individual tasks -->
   <header>
-    <h1 class="project-workspace">Project Tasks</h1>
+    <h1 class="project-workspace">{{project.name}}</h1>
   </header>
   <div class="container page-container">
 
@@ -43,7 +43,7 @@
           <div class="card-body">
             <h2 class="card-title">{{this.title}}</h2>
             <p class="card-text">{{this.description}}</p>
-            <p class="card-text">{{this.User.name}}{{this.User.avatar}}</p>
+            <p class="card-text">@{{this.User.name}}{{this.User.avatar}}</p>
             <div class="links">
               <a class="card-link" href="/{{this.id}}/edit"><i class="fas fa-edit"></i></a>
               <a class="card-link" href="/{{this.id}}/delete"><i class="fas fa-trash-alt"></i></a>

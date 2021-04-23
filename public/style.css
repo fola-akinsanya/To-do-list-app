@@ -224,6 +224,8 @@ h1 {
 
 .project-workspace {
 margin: 2rem;
+color: #45a29e;
+text-transform: capitalize;
 }
 
 #wrapper {

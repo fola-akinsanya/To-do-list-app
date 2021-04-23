@@ -87,7 +87,7 @@ app.get('/projects/:projectid', async (req, res) => {
         else if(task.column === 2){ col2Task.push(task)}
     })
 
-    res.render('projectBoard', {col0Task,col1Task,col2Task, projectID})
+    res.render('projectBoard', {col0Task,col1Task,col2Task, projectID, project})
 })
 
 app.get('/create-user', async (req, res) => {
