@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 
 ul {
@@ -327,8 +328,46 @@ p.card-text {
   font-family: 'Montserrat', sans-serif;
 }
 
+.mobile-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #1f2833;
+  color: #45a29e;
+  padding-top: 4rem;
+  transform: translateY(-100%);
+  z-index: 1000;
+}
+
 .show {
-  display: block;
+  transform: translateY(0%);
+}
+
+.fa-times {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+}
+.mobile-nav-link {
+  list-style: none;
+}
+.mobile-nav-a {
+  padding: 2rem;
+}
+
+.transition {
+  transition: 1s ease-in;
+}
+.fa-bars,
+.fa-times {
+  cursor: pointer;
+  color: #45a29e;
 }
 
 /* Media Queries */

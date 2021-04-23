@@ -28,13 +28,25 @@
 </head>
 
 <body>
+    <div class="mobile-nav transition">
+        <i class="fas fa-times"></i>
+        <li class="navlink mobile-nav-link"><a class="nav-a mobile-nav-a" href="/">All Projects</a></li>
+        <li class="navlink mobile-nav-link"><a class="nav-a mobile-nav-a" href="/create-user">Create User</a></li>
+        <li class="navlink mobile-nav-link"><a class="nav-a mobile-nav-a" href="/create-project">Create Project</a>
+        </li>
+    </div>
     {{{body}}}
 
     <script>
         const menu = document.querySelector('.hamburger-menu')
-        const nav = document.querySelector('.nav-link-wrapper')
+        const nav = document.querySelector('.mobile-nav')
+        const closeBtn = document.querySelector('.fa-times')
         menu.addEventListener('click', (e) => {
+            nav.classList.toggle('show')
+        })
 
+        closeBtn.addEventListener('click', (e) => {
+            nav.classList.toggle('show')
         })
 
     </script>
