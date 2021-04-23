@@ -341,7 +341,7 @@ p.card-text {
   color: #45a29e;
   padding-top: 4rem;
   transform: translateY(-100%);
-  z-index: 1000;
+  z-index: 100000000;
 }
 
 .show {
