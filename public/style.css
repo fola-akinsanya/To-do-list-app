@@ -350,6 +350,41 @@ p.card-text {
   .hamburger-menu {
     padding-right: 2rem;
   }
+
+  h2.first-project-title, .project-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .project-title {
+    margin-top: 2rem;
+  }
+
+  form.modal {
+    height: 21rem;
+  }
+
+  label.form-label {
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+}
+
+label.assign-user-title {
+font-size: 0.9rem;
+margin-bottom: 0.5rem;
+}
+
+label.task-name-title {
+  margin-bottom: 0.5rem;
+}
+
+form.edit-task-modal.modal {
+  height: 28rem;
+}
+
 }
 
 @media only screen and (min-width: 600px) {
