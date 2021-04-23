@@ -15,6 +15,24 @@
   },
   "scripts": {
     "test": "jest",
-    "test:report": "jest --coverage=true"
-  }
+    "test:report": "jest --coverage=true",
+    "start": "node server.js"
+  },
+  "name": "to-do-list-app",
+  "description": "<!-- ![](https://www.generalcatalyst.com/wp-content/uploads/2021/01/Multiverse-Logo.png)  -->",
+  "version": "1.0.0",
+  "main": "db.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fola-akinsanya/To-do-list-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fola-akinsanya/To-do-list-app/issues"
+  },
+  "homepage": "https://github.com/fola-akinsanya/To-do-list-app#readme"
 }
